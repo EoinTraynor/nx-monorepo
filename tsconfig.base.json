@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nx-monorepo/utilities": ["libs/utilities/src/index.ts"],
+      "@nx-monorepo/reservations": ["libs/reservations/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
